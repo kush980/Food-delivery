@@ -103,9 +103,17 @@ header{
     margin-left: 40px;
 }
 
-.nav-bar li a{
+.nav-bar li a:link,.nav-bar li a:visited{
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    padding: 8px 0;
+}
+
+.nav-bar li a:hover,.nav-bar li a:active{
+    border-bottom: 2px solid #e67e22;
+
 }
