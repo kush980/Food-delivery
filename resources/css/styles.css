@@ -20,13 +20,17 @@ html{
     margin: 0 auto;
 }
 
-.clearfix {zoom: 1;}
+.clearfix {zoom: 1}
 .clearfix::after{
     content: '.';
     display: block;
     clear: both;
     height: 0;
     visibility: hidden;
+}
+
+section{
+    padding: 80px 0;
 }
 
 /* ----------HEADING---------- */
@@ -60,8 +64,8 @@ h2:after{
     content: " ";
     margin: 0 auto;
     margin-top: 30px;
+    
 }
-
 h3{
     font-size: 110%;
     margin-bottom: 15px;
@@ -155,9 +159,6 @@ header{
 }
 
 /* ----------FEATURES SECTION----------  */
-.features-section{
-    padding: 80px 0;
-}
 
 /* .features-section .feature-title{
     margin-bottom: 40px;
@@ -189,6 +190,10 @@ header{
 
 
 /* ----------MEALS SECTION----------  */
+
+.meals{
+    padding: 0;
+}
 
 .meal-showcase{
     list-style: none;
@@ -246,6 +251,10 @@ header{
     margin-bottom: 50px;
 }
 
+.steps:last-of-type{
+    margin-bottom: 80px;
+}
+
 .steps div{
     color: #e67e22;
     border: 2px solid #e67e22;
@@ -257,4 +266,10 @@ header{
     float: left;
     font-size: 150%;
     margin-right: 25px;
+}
+
+.btn-app img{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
 }
