@@ -146,15 +146,20 @@ header{
 }
 
 /* ----------FEATURES SECTION----------  */
-
 .features-section{
     padding: 80px 0;
 }
+
+/* .features-section .feature-title{
+    margin-bottom: 40px;
+} */
 
 .feature-title{
     line-height: 145%;
     width: 70%;
     margin: auto 15%;
+    margin-bottom: 30px;
+    
 }
 
 .box{
@@ -195,4 +200,5 @@ header{
 .meal-images img{
     width: 100%;
     height: auto;
+    transform: scale(1.15);
 }
