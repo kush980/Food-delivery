@@ -150,3 +150,25 @@ header{
 .features-section{
     padding: 80px 0;
 }
+
+.feature-title{
+    line-height: 145%;
+    width: 70%;
+    margin: auto 15%;
+}
+
+.box{
+    padding: 1%;
+}
+
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+}
+
+.f-icon{
+    font-size: 300%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
