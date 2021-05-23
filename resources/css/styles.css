@@ -20,6 +20,15 @@ html{
     margin: 0 auto;
 }
 
+.clearfix {zoom: 1;}
+.clearfix::after{
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
 /* ----------HEADING---------- */
 h1,h2,h3{
     font-weight: 300;
