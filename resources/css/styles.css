@@ -172,3 +172,27 @@ header{
     color: #e67e22;
     margin-bottom: 10px;
 }
+
+
+/* ----------MEALS SECTION----------  */
+
+.meal-showcase{
+    list-style: none;
+    width: 100%;
+}
+
+.meal-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-images {
+    width: 100%;
+    margin: 0;
+}
+
+.meal-images img{
+    width: 100%;
+    height: auto;
+}
