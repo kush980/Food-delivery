@@ -273,3 +273,29 @@ header{
     width: auto;
     margin-right: 10px;
 }
+
+/* ----------CITIES---------- */
+
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature{
+    margin-bottom: 5px;
+}
+
+.c-icon{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-size: 100%;
+    color: #e67e22;
+    margin-right: 10px;
+
+    /* Aligning icons with text  */
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
