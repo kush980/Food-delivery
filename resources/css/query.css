@@ -40,7 +40,38 @@
 }
 
 @media only screen and (max-width:767px){
+    body{font-size: 16px;}
+    section{padding: 30px 0;}
 
+    .row,.header-text{padding: 0,4%;}
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .nav-bar{display: none;}
+
+    h1{font-size: 180%;}
+    h2{font-size: 150%;}
+
+    .feature-title{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .app-screen{width: 40%;}
+    .steps-box:first-child{text-align: center;}
+
+    .steps div{
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+
+    .steps{margin-bottom: 20px;}
+    .steps:last-of-type{margin-bottom: 20px;}
 }
 
 @media only screen and (max-width:480px){
