@@ -15,6 +15,28 @@
         width: 80%;
         margin-left: 10%;
     }
+
+    .steps-box{margin-top: 10px;}
+    .steps-box:last-child{margin-top: 10px;}
+    .steps{margin-bottom: 40px;}
+    .steps:last-of-type{margin-bottom: 60px;}
+
+    .app-screen{width: 50%;}
+
+    .c-icon{
+        width: 17px;
+        margin-left: 0;
+    }
+
+    .city-feature{font-size: 90%;}
+
+    .plan-box{
+        width: 100%;
+        margin-left: 0;
+    }
+    .plan-price{font-size: 250%;}
+
+    .forms{width: 80%;}
 }
 
 @media only screen and (max-width:767px){
