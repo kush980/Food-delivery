@@ -192,11 +192,13 @@ header{
     width: 100%;
     background-color: rgba(255,255,255,0.98);
     box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
 }
 
-.nav-bar{margin-top: 18px;}
+.sticky .nav-bar{margin-top: 18px;}
 
-.sticky .nav-bar li a:link,.nav-bar li a:visited{
+.sticky .nav-bar li a:link,
+.sticky .nav-bar li a:visited{
     color: #555;
     padding: 16px 0;
 }
