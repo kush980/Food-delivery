@@ -471,6 +471,10 @@ input[type=checkbox]{
     outline: none;
 }
 
+input[type=submit]{
+    cursor: pointer;
+}
+
 /* ----------FOOTER---------- */
 
 footer{
