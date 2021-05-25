@@ -67,4 +67,19 @@ $(document).ready(function(){
       offset:'50%'
   });
 
+//   MOBILE NAVIGATION MENU 
+$('.js-nav-icon').click(function(){
+    var nav = $('.js-nav-bar')
+    var icon = $('.js-nav-icon i')
+
+    nav.slideToggle(200);
+    if(icon.hasClass('fa-bars')){
+        icon.addClass('fa-times');
+        icon.removeClass('fa-bars');
+    } else{
+        icon.addClass('fa-bars');
+        icon.removeClass('fa-times');
+    }
+});
+
 });
