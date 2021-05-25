@@ -49,7 +49,7 @@
         margin: 0 0 4% 0;
     }
 
-    /* .nav-bar{display: none;} */
+    .nav-bar{display: none;}
     .mobile-nav{display: inline-block;}
 
     .nav-bar{float: left;}
