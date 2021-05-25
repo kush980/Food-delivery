@@ -49,7 +49,24 @@
         margin: 0 0 4% 0;
     }
 
-    .nav-bar{display: none;}
+    /* .nav-bar{display: none;} */
+    .mobile-nav{display: inline-block;}
+
+    .nav-bar{float: left;}
+
+    .nav-bar li{display: block;}
+    .nav-bar li a:link,.nav-bar li a:visited{
+        display: block;
+        border: 0;
+    }
+
+    .sticky .nav-bar{margin-top: 10px;}
+
+    .sticky .nav-bar li a:link,
+    .sticky .nav-bar li a:visited{padding: 10px 0;}
+
+    .sticky .mobile-nav{margin-top: 10px;}
+    .sticky .mobile-nav i{color: #555;}
 
     h1{font-size: 180%;}
     h2{font-size: 150%;}

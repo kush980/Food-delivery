@@ -156,6 +156,22 @@ header{
     float: left;
     margin: 5px 0;
 }
+
+/* MOBILE NAV  */
+
+.mobile-nav{
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav i{
+    font-size: 200%;
+    color: #fff;
+}
+
+
 /* MAIN NAV  */
 
 .nav-bar{
